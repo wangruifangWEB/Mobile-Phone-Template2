@@ -1,0 +1,91 @@
+$color:#fff;
+
+$color255:#000;
+
+$color51:rgb(51, 51, 51);
+
+$color153:rgb( 153, 153, 153 );
+
+$color102:rgb(102, 102, 102);
+
+$color204:rgb(204, 204, 204);
+
+$color218:rgb( 218, 218, 218 );
+
+$fontSize12: .12rem;
+
+$fontSize14: .14rem;
+
+$fontSize18: .18rem;
+
+$fontSize24: .24rem;
+
+$fontSize32:.32rem;
+
+$fontSize36:.36rem;
+
+$fontSize37:.37rem;
+
+$fontSize60:.6rem;
+
+@mixin color-fontFamily {
+    color: $color;
+    font-family: "MicrosoftYaHeiLight";
+}
+
+@mixin background-image($height, $url) {
+    width: 100%;
+    height: $height;
+    background: url($url) no-repeat;
+    background-size: 100%;
+}
+
+@mixin background-image2($height, $url) {
+    width: 6.9rem;
+    height: $height;
+    background: url($url) no-repeat;
+    background-size: 100%;
+}
+
+@mixin textclamp2-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+@mixin textclamp3-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+@mixin textclamp-ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+// 标题
+@mixin title-style {
+    font-size: $fontSize36;
+    color: $color51;
+    margin-bottom: .5rem;
+
+    img {
+        width: .46rem;
+    }
+
+    .rotateImg {
+        transform: rotate(180deg)
+    }
+
+    span {
+        margin: 0 .55rem;
+    }
+}

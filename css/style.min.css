@@ -1,0 +1,636 @@
+header {
+  width: 100%;
+  color: #fff;
+  font-size: 0.24rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header .header-mask {
+  height: .89rem;
+  line-height: .89rem;
+  background-color: #fff;
+  padding: 0 .3rem 0 .3rem;
+}
+
+header .header-mask .header-mask-lf {
+  display: inline-block;
+}
+
+header .header-mask .header-mask-lf img:nth-child(1) {
+  width: .48rem;
+  height: .47rem;
+}
+
+header .header-mask .header-mask-lf img:nth-child(2) {
+  width: 1.64rem;
+  height: .40rem;
+}
+
+header .header-mask .header-mask-lf span {
+  font-size: 0.24rem;
+  line-height: 0.878;
+  text-align: center;
+}
+
+header .header-mask .header-mask-rt {
+  width: .51rem;
+  height: .47rem;
+  float: right;
+  margin-top: .27rem;
+}
+
+header .header-mask-list {
+  width: 3.42rem;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  right: -3.42rem;
+  z-index: 10;
+}
+
+header .header-mask-list li {
+  height: .7rem;
+  line-height: .7rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+header .header-mask-list li a {
+  color: #fff;
+}
+
+footer {
+  background-color: #000;
+  text-align: center;
+  margin: auto;
+}
+
+footer .footer-content {
+  padding-top: .7rem;
+  width: 5.79rem;
+  margin: auto;
+}
+
+footer .footer-content .footer-title {
+  font-size: 0.36rem;
+  color: #fff;
+  margin-bottom: .5rem;
+}
+
+footer .footer-content .footer-title img {
+  width: .46rem;
+}
+
+footer .footer-content .footer-title .rotateImg {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+footer .footer-content .footer-title span {
+  margin: 0 .55rem;
+}
+
+footer .footer-content form input {
+  width: 100%;
+  height: .69rem;
+  border-radius: .2rem;
+  background-color: #fff;
+  margin-bottom: .36rem;
+  padding-left: .44rem;
+}
+
+footer .footer-content form button {
+  width: 3.34rem;
+  height: .69rem;
+  font-size: 0.24rem;
+  color: #fff;
+  background: url("../images/btn.png") no-repeat;
+  background-size: 100%;
+  margin-bottom: .5rem;
+}
+
+footer .footer-content p {
+  color: #fff;
+  font-size: 0.24rem;
+  line-height: .72rem;
+}
+
+section .section-one {
+  width: 100%;
+  height: 4.67rem;
+  background: url("../images/01.jpg") no-repeat;
+  background-size: 100%;
+}
+
+section .section-one .txt-box {
+  color: #fff;
+  font-family: "MicrosoftYaHeiLight";
+  text-align: center;
+}
+
+section .section-one .txt-box a {
+  display: inline-block;
+  color: #fff;
+  font-family: "MicrosoftYaHeiLight";
+  width: 1.59rem;
+  height: .37rem;
+  line-height: .37rem;
+  font-size: 0.24rem;
+  border: 0.01rem solid #fff;
+  border-radius: .2rem;
+}
+
+section .section-one .txt-box p:nth-child(1) {
+  font-size: 0.6rem;
+  padding-top: 1.25rem;
+}
+
+section .section-one .txt-box p:nth-child(2) {
+  font-size: 0.36rem;
+  padding: .42rem 0 .67rem 0;
+}
+
+section .section-second {
+  width: 100%;
+  height: auto;
+  background: url("../images/bg.png") no-repeat;
+  background-size: 100%;
+}
+
+section .section-second .company-profile {
+  text-align: center;
+  width: 6.9rem;
+  height: 6.39rem;
+  background: url("../images/gsjj.png") no-repeat;
+  background-size: 100%;
+  margin: auto;
+  position: relative;
+  top: .63rem;
+}
+
+section .section-second .company-profile .company-content {
+  padding: .62rem .6rem .5rem .6rem;
+}
+
+section .section-second .company-profile .company-content .company-title {
+  font-size: 0.36rem;
+  color: #333333;
+  margin-bottom: .5rem;
+}
+
+section .section-second .company-profile .company-content .company-title img {
+  width: .46rem;
+}
+
+section .section-second .company-profile .company-content .company-title .rotateImg {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+section .section-second .company-profile .company-content .company-title span {
+  margin: 0 .55rem;
+}
+
+section .section-second .company-profile .company-content .company-desc {
+  text-align: left;
+}
+
+section .section-second .company-profile .company-content .company-desc p {
+  line-height: .4rem;
+  font-size: 0.24rem;
+}
+
+section .section-second .marketing-service {
+  height: 6.79rem;
+  background: #fff;
+  margin-top: .7rem;
+  border-radius: 5px;
+}
+
+section .section-second .marketing-service .service-list ul li {
+  overflow: hidden;
+}
+
+section .section-second .marketing-service .service-list ul li:nth-child(2) {
+  margin: .6rem 0;
+}
+
+section .section-second .marketing-service .service-list ul li img {
+  width: 1.01rem;
+  height: .99rem;
+  float: left;
+  margin-top: .16rem;
+}
+
+section .section-second .marketing-service .service-list ul li > div {
+  width: 4.48rem;
+  text-align: left;
+  float: right;
+}
+
+section .section-second .marketing-service .service-list ul li > div p:nth-child(1) {
+  font-size: 0.24rem;
+  color: #333333;
+  line-height: .5rem;
+}
+
+section .section-second .marketing-service .service-list ul li > div p:nth-child(2) {
+  font-size: 0.18rem;
+  color: #666666;
+  line-height: .34rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+section .section-second .news-info {
+  width: 6.9rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: .7rem;
+}
+
+section .section-second .news-info .company-title {
+  font-size: 0.36rem;
+  color: #333333;
+  margin-bottom: .5rem;
+}
+
+section .section-second .news-info .company-title img {
+  width: .46rem;
+}
+
+section .section-second .news-info .company-title .rotateImg {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+section .section-second .news-info .company-title span {
+  margin: 0 .55rem;
+}
+
+section .section-second .news-info .company-content {
+  padding: .62rem 0 .5rem 0;
+  overflow: hidden;
+}
+
+section .section-second .news-info .company-content .company-title {
+  color: #fff;
+}
+
+section .section-second .news-info .company-content .service-list {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+section .section-second .news-info .company-content .service-list .list-item {
+  padding: .37rem .33rem .5rem .33rem;
+}
+
+section .section-second .news-info .company-content .service-list .list-item img {
+  width: 6.22rem;
+  height: 1.8rem;
+}
+
+section .section-second .news-info .company-content .service-list .list-item .item-text {
+  text-align: left;
+}
+
+section .section-second .news-info .company-content .service-list .list-item .item-text .item-top {
+  margin: .18rem 0;
+}
+
+section .section-second .news-info .company-content .service-list .list-item .item-text .item-top p {
+  display: inline;
+}
+
+section .section-second .news-info .company-content .service-list .list-item .item-text .item-top p:nth-child(1) {
+  font-size: 0.24rem;
+  color: #333333;
+}
+
+section .section-second .news-info .company-content .service-list .list-item .item-text .item-top p:nth-child(2) {
+  float: right;
+  font-size: 0.12rem;
+  color: #cccccc;
+}
+
+section .section-second .news-info .company-content .service-list .list-item .item-text p {
+  display: inline-block;
+  color: #666666;
+  font-size: 0.14rem;
+  line-height: .32rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+section .section-second .news-info .company-content .news-list {
+  text-align: left;
+  margin-top: .25rem;
+}
+
+section .section-second .news-info .company-content .news-list li {
+  width: 3.25rem;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: .23rem 0 .25rem 0;
+  float: left;
+  margin-bottom: .33rem;
+}
+
+section .section-second .news-info .company-content .news-list li:nth-child(2n) {
+  margin-left: .4rem;
+}
+
+section .section-second .news-info .company-content .news-list li span {
+  display: inline-block;
+  width: 100%;
+  height: .43rem;
+  color: #cccccc;
+  font-size: 0.12rem;
+  margin-left: .15rem;
+}
+
+section .section-second .news-info .company-content .news-list li .news-box {
+  padding-left: .15rem;
+  border-top: .01rem solid #efefef;
+}
+
+section .section-second .news-info .company-content .news-list li .news-box p:nth-child(1) {
+  font-size: 0.24rem;
+  color: #333333;
+  margin: .12rem 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+section .section-second .news-info .company-content .news-list li .news-box p:nth-child(2) {
+  font-size: 0.14rem;
+  color: #666666;
+  line-height: .4rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.aboutUs-wrapper section .section-one {
+  background: url(../images/g01.png) no-repeat;
+  background-size: 100%;
+}
+
+.aboutUs-wrapper section .section-second {
+  background: none;
+  background-color: #fff;
+}
+
+.aboutUs-wrapper section .section-second .company-profile {
+  height: auto;
+  background: none;
+  padding: .7rem 0;
+  top: 0;
+}
+
+.aboutUs-wrapper section .section-second .company-profile .company-content {
+  padding: 0;
+}
+
+.aboutUs-wrapper section .section-second .company-profile .company-content .company-desc p {
+  text-indent: .48rem;
+}
+
+.aboutUs-wrapper section .section-second .company-profile .company-content .company-pic img {
+  width: 5.42rem;
+  height: 3.64rem;
+  margin-top: .7rem;
+}
+
+.aboutUs-wrapper section .section-second .corporate-culture {
+  padding: 0 0 .7rem 0;
+}
+
+.contactUs-wrapper section .section-one {
+  background: url(../images/c01.png) no-repeat;
+  background-size: 100%;
+}
+
+.contactUs-wrapper section .section-two {
+  text-align: center;
+  background-color: #fff;
+  padding: .7rem .3rem;
+}
+
+.contactUs-wrapper section .section-two .contact-title {
+  font-size: 0.36rem;
+  color: #333333;
+  margin-bottom: .5rem;
+}
+
+.contactUs-wrapper section .section-two .contact-title img {
+  width: .46rem;
+}
+
+.contactUs-wrapper section .section-two .contact-title .rotateImg {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.contactUs-wrapper section .section-two .contact-title span {
+  margin: 0 .55rem;
+}
+
+.contactUs-wrapper section .section-two .contact-address .contact-text {
+  margin-bottom: .5rem;
+}
+
+.contactUs-wrapper section .section-two .contact-address .contact-text p {
+  font-size: 0.24rem;
+  color: #333333;
+  text-align: left;
+  line-height: .42rem;
+}
+
+.newsDetails-wrapper {
+  background-color: #fff;
+}
+
+.newsDetails-wrapper section .section-box .section-top-pic {
+  width: 100%;
+  height: 2.17rem;
+}
+
+.newsDetails-wrapper section .section-box .section-top-pic img {
+  width: 100%;
+}
+
+.newsDetails-wrapper section .section-box .section-desc {
+  padding: 0 .3rem;
+}
+
+.newsDetails-wrapper section .section-box .section-desc .desc-title {
+  font-size: 0.36rem;
+  color: #333333;
+  text-align: center;
+  padding: .7rem 0 .52rem 0;
+}
+
+.newsDetails-wrapper section .section-box .section-desc .desc-content p {
+  color: #666666;
+  text-indent: .48rem;
+  font-size: 0.24rem;
+  line-height: .4rem;
+}
+
+.newsDetails-wrapper section .section-box .section-desc .desc-pic {
+  width: 6.9rem;
+  margin: .3rem 0;
+}
+
+.newsDetails-wrapper section .section-box .section-desc .desc-pic img {
+  width: 100%;
+}
+
+.newsDetails-wrapper section .section-box .section-chapters {
+  padding: 0 .3rem;
+  margin-bottom: .3rem;
+}
+
+.newsDetails-wrapper section .section-box .section-chapters a {
+  display: inline-block;
+  font-size: 0.24rem;
+  color: #999999;
+  line-height: .4rem;
+}
+
+.news-info-wrapper section .section-one {
+  background: url(../images/news01.png) no-repeat;
+  background-size: 100%;
+}
+
+.news-info-wrapper section .news-content {
+  text-align: center;
+  margin: auto;
+  background-color: #fff;
+  padding: .7rem .3rem .25rem .3rem;
+}
+
+.news-info-wrapper section .news-content .news-title {
+  font-size: 0.36rem;
+  color: #333333;
+  margin-bottom: .5rem;
+  margin-bottom: .25rem;
+}
+
+.news-info-wrapper section .news-content .news-title img {
+  width: .46rem;
+}
+
+.news-info-wrapper section .news-content .news-title .rotateImg {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.news-info-wrapper section .news-content .news-title span {
+  margin: 0 .55rem;
+}
+
+.news-info-wrapper section .news-content .news-list li {
+  border-bottom: .01rem solid #dadada;
+  padding: .25rem 0;
+}
+
+.news-info-wrapper section .news-content .news-list li .news-item-pic {
+  width: 6.9rem;
+  height: 2.02rem;
+}
+
+.news-info-wrapper section .news-content .news-list li .news-item-pic img {
+  width: 100%;
+}
+
+.news-info-wrapper section .news-content .news-list li .news-item-desc {
+  text-align: left;
+}
+
+.news-info-wrapper section .news-content .news-list li .news-item-desc p:nth-child(1) {
+  color: #333333;
+  font-size: 0.24rem;
+  line-height: .4rem;
+}
+
+.news-info-wrapper section .news-content .news-list li .news-item-desc p:nth-child(2) {
+  color: #666666;
+  font-size: 0.14rem;
+  line-height: .35rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.news-info-wrapper section .news-content .news-list li .news-item-desc p span {
+  font-size: 0.12rem;
+  color: #cccccc;
+  float: right;
+}
+
+.news-info-wrapper section .news-content .nomore {
+  margin-top: .25rem;
+  font-size: 0.14rem;
+  color: #dadada;
+}
+
+.marketing-wrapper section .section-second .company-profile .company-content .company-desc li {
+  overflow: hidden;
+  margin-bottom: .84rem;
+}
+
+.marketing-wrapper section .section-second .company-profile .company-content .company-desc li:last-child {
+  margin-bottom: 0;
+}
+
+.marketing-wrapper section .section-second .company-profile .company-content .company-desc li img {
+  width: 1.01rem;
+  height: .99rem;
+  float: left;
+}
+
+.marketing-wrapper section .section-second .company-profile .company-content .company-desc li div {
+  width: 5.6rem;
+  float: right;
+}
+
+.marketing-wrapper section .section-second .company-profile .company-content .company-desc li div p {
+  text-indent: 0;
+}
+
+.marketing-wrapper section .section-second .company-profile .company-content .company-desc li div p:nth-child(1) {
+  color: #333333;
+}
+
+.marketing-wrapper section .section-second .company-profile .company-content .company-desc li div p:nth-child(2) {
+  color: #666666;
+  font-size: 0.18rem;
+}
+
+.talents-wrapper section .section-second .company-profile .company-content .company-desc p {
+  text-indent: 0;
+  color: #333333;
+}
+
+.talents-wrapper section .section-second .company-profile .company-content .company-desc .desc-center {
+  margin: .63rem 0;
+}
+/*# sourceMappingURL=style.min.css.map */
