@@ -9,8 +9,7 @@
   <title>首页</title>
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/style.min.css" />
-  <script src="js/jquery.min.js"></script>
-  <script src="js/common.js"></script>
+  <link rel="stylesheet" href="css/aos.css" />
 </head>
 
 <body>
@@ -51,8 +50,10 @@
       <!-- 首栏 -->
       <div class="section-one">
         <div class="txt-box">
-          <p>优质品质 携手共赢</p>
-          <p>合作代理商500+ 共同挖掘互联网价值</p>
+          <div>
+            <p>优质品质 携手共赢</p>
+            <p>合作代理商500+ 共同挖掘互联网价值</p>
+          </div>
           <a href="" class="more">了解更多</a>
         </div>
       </div>
@@ -79,7 +80,7 @@
         </div>
 
         <!-- 营销服务 -->
-        <div class="company-profile marketing-service">
+        <div class="company-profile marketing-service" data-aos="fade-up">
           <div class="company-content">
             <div class="company-title">
               <img src="images/02.png" alt="" />
@@ -133,7 +134,7 @@
               <img src="images/02-2.png" alt="" class="rotateImg" />
             </div>
 
-            <div class="service-list">
+            <div class="service-list" data-aos="fade-left">
               <a href="newsDetails.html">
                 <div class="list-item">
                   <img src="images/06.jpg" alt="">
@@ -147,7 +148,7 @@
                 </div>
               </a>
             </div>
-            <ul class="news-list">
+            <ul class="news-list" data-aos="fade-up-left">
               <li>
                 <a href="newsDetails.html">
                   <span>2018-03-19</span>
@@ -210,6 +211,12 @@
       </div>
     </footer>
   </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

@@ -9,11 +9,11 @@ section {
       a {
         display: inline-block;
         @include color-fontFamily;
-        width: 1.59rem;
-        height: .37rem;
-        line-height: .37rem;
+        width: 1.62rem;
+        height: .4rem;
+        line-height: .4rem;
         font-size: $fontSize24;
-        border: .01rem solid $color;
+        border: 1px solid $color;
         border-radius: .2rem;
       }
 
@@ -80,7 +80,7 @@ section {
             width: 1.01rem;
             height: .99rem;
             float: left;
-            margin-top: .16rem;
+            margin-top: .08rem;
           }
 
           >div {
@@ -207,7 +207,7 @@ section {
                 &:nth-child(1) {
                   font-size: $fontSize24;
                   color: $color51;
-                  margin: .12rem 0;
+                  padding: .12rem 0 .04rem 0;
                   @include textclamp-ellipsis;
                 }
 

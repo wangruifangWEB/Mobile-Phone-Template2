@@ -17,21 +17,24 @@ $(function(){
   var i = 0;
   var $elem=$(".header-mask-list");
   $("#menu").click(function () {
-  
     if (i == 0) {
+      $elem.show();
       $elem.animate({right: '0'}, 500);
-      $elem.addClass("jian");
       i = 1;
     } else {
-      $elem.animate({right: '-3.42rem'}, 500);
-      $elem.removeClass("jian");
-      i = 0;
+      $elem.animate({right: '-3.42rem'}, 500,function(){
+        $elem.hide();
+        i = 0;
+      });
     }
   });
 
-  if ($('.jian')) {
+  if ($('.header-mask-list').not(":hidden")) {
     $('section').click(function () {
-      $elem.animate({right: '-3.42rem'}, 500);
+      $elem.animate({right: '-3.42rem'}, 500,function(){
+        $elem.hide();
+        i = 0;
+      });
     })
   }
 })
