@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/style.min.css" />
   <link rel="stylesheet" href="css/aos.css">
-  
+
 </head>
 
 <body>
@@ -62,7 +62,7 @@
           <img src="images/02.png" alt="" class="rotateImg" />
         </div>
         <ul class="news-list">
-          <li  data-aos="fade-left">
+          <li>
             <a href="newsDetails.html">
               <div class="news-item-pic">
                 <img src="images/news02.jpg" alt="">
@@ -74,7 +74,7 @@
             </a>
           </li>
 
-          <li data-aos="fade-right">
+          <li>
             <a href="newsDetails.html">
 
               <div class="news-item-pic">
@@ -87,7 +87,7 @@
             </a>
           </li>
 
-          <li  data-aos="fade-left">
+          <li>
             <a href="newsDetails.html">
 
               <div class="news-item-pic">
@@ -100,7 +100,7 @@
             </a>
           </li>
 
-          <li  data-aos="fade-right">
+          <li>
             <a href="newsDetails.html">
 
               <div class="news-item-pic">
@@ -139,8 +139,16 @@
   <script src="js/common.js"></script>
   <script src="js/aos.js"></script>
   <script>
-      AOS.init();
-    </script>
+    for (var i = 0; i < $('.news-list li').length; i++) {
+      if (i % 2 == 0) { //当前是偶数
+        $('.news-list li').eq(i).attr('data-aos', 'fade-left')
+      } else { //是奇数
+        $('.news-list li').eq(i).attr('data-aos', 'fade-right')
+      }
+    }
+
+    AOS.init();
+  </script>
 </body>
 
 </html>
